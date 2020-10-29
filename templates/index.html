@@ -1,0 +1,44 @@
+{% extends "base.html" %} {% block content %}
+
+
+<h2>Image Similarity Search</h2>
+<div class="Container">
+	<div class="Content">
+            <div class="Wrapper">
+                <div class="LeftContent">
+					<form id="upload-file" method="post" enctype="multipart/form-data">
+						<label for="imageUpload" class="upload-label">
+							Choose...
+						</label>
+						<input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+					</form>
+
+					<div class="image-section" style="display:none;">
+						<div class="img-preview">
+							<div id="imagePreview">
+							</div>
+						</div>
+						<div>
+							<button type="button" class="btn btn-primary btn-lg " id="btn-predict">Search!</button>
+						</div>
+					</div>
+					<select id="Category" name="Category">
+					<option value="All">All</option>
+					<option value="Rings">Rings</option>
+					<option value="Earrings">Earrings</option>
+					<option value="Necklaces">Necklaces</option>
+					<option value="Bracelets">Bracelets</option>
+					</select>
+					<div class="loader" style="display:none;"></div>
+				</div>
+				<div class="RightContent">
+					<div id="myimg" style="float:right">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+				
+</div>
+{% endblock %}
