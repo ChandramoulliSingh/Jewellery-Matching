@@ -26,7 +26,7 @@ fastprogress
 Flask==1.1.2
 Flask-Cors==3.0.9
 Flask-RESTful==0.3.8
-future==0.18.2
+future
 gevent==20.9.0
 greenlet==0.4.17
 gunicorn==20.0.4
@@ -46,7 +46,7 @@ jupyterlab-pygments
 jupyterthemes==0.20.0
 kiwisolver==1.2.0
 lesscpy==0.14.0
-lshashpy3==0.0.8
+lshashpy3
 MarkupSafe==1.1.1
 matplotlib
 mistune==0.8.4
