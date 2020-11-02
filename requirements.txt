@@ -52,7 +52,6 @@ matplotlib
 mistune==0.8.4
 mkl-fft
 mkl-random
-mkl-service
 murmurhash==1.0.2
 nb-conda-kernels
 nbclient
