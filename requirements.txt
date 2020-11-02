@@ -52,7 +52,6 @@ matplotlib
 mistune==0.8.4
 mkl-fft
 mkl-random
-nb-conda-kernels
 nbclient
 nbconvert
 nbformat==5.0.7
